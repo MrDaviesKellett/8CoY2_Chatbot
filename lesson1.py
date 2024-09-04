@@ -5,6 +5,7 @@ print("hello world")
 # we assign a string "Mr Davies" to a variable
 name = "Mr Davies"
 
-# 
+# if statement, if the condition is true, then do the code below
+# double equals check for equality 
 if(name == "Mr Davies"):
     print("no not you!?!")
