@@ -5,6 +5,7 @@ print("hello world")
 # we assign a string "Mr Davies" to a variable
 name = "Mr Davies"
 
+
 name = input("what is your name? ")
 
 # if statement, if the condition is true, then do the code below
