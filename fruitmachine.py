@@ -20,4 +20,7 @@ while play == "yes" or play == "y":
     print("you rolled:")
     print(roller1,roller2,roller3)
 
+    if roller1 == roller2 == roller3 == "Bell":
+        dollars += 5
+
     play = input("do you want to play? (y,n) ")
