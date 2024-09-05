@@ -5,6 +5,6 @@ from random import choice
 symbols = ['Cherry','Lemon','Bell','Skull','Orange','Star']
 
 # three rollers
-roller1 =
-roller2 =
-roller3 =
+roller1 = choice(symbols)
+roller2 = choice(symbols)
+roller3 = choice(symbols)
