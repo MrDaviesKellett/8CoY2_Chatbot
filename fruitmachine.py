@@ -16,3 +16,8 @@ while play == "yes" or play == "y":
     roller1 = choice(symbols)
     roller2 = choice(symbols)
     roller3 = choice(symbols)
+
+    print("you rolled:")
+    print(roller1,roller2,roller3)
+
+    play = input("do you want to play? (y,n) ")
