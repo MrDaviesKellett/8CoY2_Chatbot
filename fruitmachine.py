@@ -8,9 +8,11 @@ symbols = ['Cherry','Lemon','Bell','Skull','Orange','Star']
 dollars = 1
 cents = 0
 
-play = input("do you want to play? ")
+play = input("do you want to play? (y,n) ")
 
-# three rollers
-roller1 = choice(symbols)
-roller2 = choice(symbols)
-roller3 = choice(symbols)
+while play == "yes" or play == "y":
+
+    # three rollers
+    roller1 = choice(symbols)
+    roller2 = choice(symbols)
+    roller3 = choice(symbols)
