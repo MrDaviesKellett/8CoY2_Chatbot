@@ -41,20 +41,20 @@ obsSpeed = 1
 leftLaneRatio = (leftLaneBottom - leftLaneTop) / width
 rightLaneRatio = (rightLaneBottom - rightLaneTop) / width
 
-obs1yOfsett = randint(-height/3,0) #FIXED
+obs1yOfsett = randint(int(-height/3),0) #FIXED
 obs1x = leftLaneTop - obsW/2 + leftLaneRatio * obs1yOfsett #FIXED
 obs1y = trackSpaceH - obsW/2 + obs1yOfsett
 obs1Counter = 0
 obs1xVel = obsSpeed * leftLaneRatio
 obs1yVel = obsSpeed
 
-obs2yOfsett = randint(-height/3,0)
+obs2yOfsett = randint(int(-height/3),0)
 obs2x = middleLane - obsW/2
 obs2y = trackSpaceH - obsW/2 + obs2yOfsett
 obs2Counter = 0
 obs2yVel = obsSpeed
 
-obs3yOfsett = randint(-height/3,0) #FIXED
+obs3yOfsett = randint(int(-height/3),0) #FIXED
 obs3x = rightLaneTop - obsW/2 + rightLaneRatio * obs3yOfsett #FIXED
 obs3y = trackSpaceH - obsW/2 + obs3yOfsett
 obs3Counter = 0
