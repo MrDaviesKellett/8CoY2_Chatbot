@@ -12,6 +12,7 @@ name = input("what is your name? ")
 # double equals check for equality
 if name == "Mr Davies":
     print("no not you!?!")
+
 else: # if anything else do this!
     print("welcome", name) # two parameters (two things in the brackets!)
     print("welcome " + name) # concatenation, joining together two strings, using the + symbol
