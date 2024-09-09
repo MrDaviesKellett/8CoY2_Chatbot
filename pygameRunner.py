@@ -117,14 +117,14 @@ while True: # game loop
         pygame.draw.rect(screen, (0,255,0), obs3)
 
         if obs1.top > height:
-            obs1yOfsett = randint(-height/3, 0) #FIXED
+            obs1yOfsett = randint(int(-height/3), 0) #FIXED
             obs1Counter += 1
             obs1x = leftLaneTop - obsW/2 + leftLaneRatio * obs1yOfsett #FIXED
             obs1y = trackSpaceH - obsW/2 + obs1yOfsett
 
         if obs2.top > height:
             obs2Counter += 1
-            obs2yOfsett = randint(-height/3, 0) #FIXED
+            obs2yOfsett = randint(int(-height/3), 0) #FIXED
             obs2y = trackSpaceH - obsW/2 + obs2yOfsett
 
         if obs3.top > height:
