@@ -128,7 +128,7 @@ while True: # game loop
             obs2y = trackSpaceH - obsW/2 + obs2yOfsett
 
         if obs3.top > height:
-            obs3yOfsett = randint(-height/3, 0) #FIXED
+            obs3yOfsett = randint(int(-height/3), 0) #FIXED
             obs3Counter += 1
             obs3x = rightLaneTop - obsW/2 + rightLaneRatio * obs3yOfsett #FIXED
             obs3y = trackSpaceH - obsW/2 + obs3yOfsett
