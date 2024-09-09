@@ -12,10 +12,9 @@ name = input("what is your name? ")
 # double equals check for equality
 if name == "Mr Davies":
     print("no not you!?!")
-else:
-    if name == "Louis Leung":
-        print("please no, very sus")
-    else: # if anything else do this!
-        print("welcome", name) # two parameters (two things in the brackets!)
-        print("welcome " + name) # concatenation, joining together two strings, using the + symbol
-        print(f"Welcome {name}") # format strings, use of f before a string, then use of curly brackets inside the string to put variables or math or other things...
+elif name == "Louis Leung": # elif: it is just a combination of else and if
+    print("please no, very sus")
+else: # if anything else do this!
+    print("welcome", name) # two parameters (two things in the brackets!)
+    print("welcome " + name) # concatenation, joining together two strings, using the + symbol
+    print(f"Welcome {name}") # format strings, use of f before a string, then use of curly brackets inside the string to put variables or math or other things...
